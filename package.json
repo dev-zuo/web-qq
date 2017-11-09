@@ -1,0 +1,17 @@
+{
+  "name": "achat-node",
+  "version": "1.0.0",
+  "description": "webchat, by nodejs+express ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zuoxiaobai",
+  "license": "MIT",
+  "dependencies": {
+    "art-template": "^4.12.2",
+    "express": "^4.16.2",
+    "express-art-template": "^1.0.0",
+    "sprintf-js": "^1.1.1"
+  }
+}

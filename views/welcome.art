@@ -1,0 +1,31 @@
+
+<!-- 主页，欢迎页 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>AChat-node</title>
+
+    <!--<link rel="icon" href="/favicon.ico" type="image/x-icon" />-->
+    <!--<link rel="bookmark" href="/favicon.ico" type="image/x-icon" />-->
+    <!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>-->
+
+    <!-- Bootstrap -->
+    <link href="/public/thirdParty/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jquery v1.12.4-->
+    <script src="/public/thirdParty/jquery.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="/public/thirdParty/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <!-- 设置public为静态文件目录后，可直接用/css/common.css 访问public/css/common.css, 这里静态目录为. -->
+    <link href="/public/css/common.css" rel="stylesheet" >
+</head>
+<body>
+    Welcome
+</body>
+</html>
