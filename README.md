@@ -1,4 +1,4 @@
-# AChat-node
+
 > 基于nodejs+socket.io的web聊天系统 :blush:
 
 ## 总体设计及规划
