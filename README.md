@@ -8,8 +8,8 @@
 
 ## 进度跟踪
 - [x] 项目准备
-- [x] 脚手架搭建
- - ![Image text](https://github.com/zuoxiaobai/AChat-node/blob/master/img-folder/jsj.png)
+- [x] 脚手架搭建  
+![Image text](https://github.com/zuoxiaobai/AChat-node/blob/master/img-folder/jsj.png)
 - [ ] 前端UI布局
 - [ ] 数据表设计
 
