@@ -4,8 +4,6 @@
  * Created by kevin on 2017/11/9.
  */
 
-var $bodyObj = $('body');
-
 /**
  * 封装 AJAX 通用请求操作
  * @param requestType   请求方式"POST", "GET"

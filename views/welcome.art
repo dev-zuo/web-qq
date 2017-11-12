@@ -10,9 +10,9 @@
 
     <title>AChat-node</title>
 
-    <!--<link rel="icon" href="/favicon.ico" type="image/x-icon" />-->
-    <!--<link rel="bookmark" href="/favicon.ico" type="image/x-icon" />-->
-    <!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>-->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="bookmark" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 
     <!-- Bootstrap -->
     <link href="/public/thirdParty/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +25,69 @@
     <!-- 设置public为静态文件目录后，可直接用/css/common.css 访问public/css/common.css, 这里静态目录为. -->
     <link href="/public/css/common.css" rel="stylesheet" >
 </head>
-<body>
-    Welcome
+<body style="background:#fff;">
+    <!-- 登录管理DIV_start -->
+    <div class="loginM">
+
+        <!-- 登录-part1 上面部分_start-->
+        <div class="loginM-p1">
+
+            <!-- part1-顶部 关闭按钮+二维码 -->
+            <div class="loginM-p1-top">
+                <div class="loginM-p1-top-left">
+                    <img src="/public/images/login_close.png" height="18" width="18">
+                </div>
+                <div class="loginM-p1-top-right">
+                    <img src="/public/images/login_qrcode.png" height="19" width="25">
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+
+            <!-- part1-图片 登录头像区域 -->
+            <div class="loginM-p1-img">
+                <img src="/public/images/login_logo.png" height="100" width="100">
+                <!-- 登录状态图片 -->
+                <div class="loginM-p1-img-status"></div>
+            </div>
+
+            <!-- part1-form 登录表单 -->
+            <div class="loginM-p1-form">
+                <div class="loginM-p1-form-main">
+                    <div class="loginM-p1-form-main-div1">
+                        <input type="text" placeholder="输入账号">
+                    </div>
+                    <div class="loginM-p1-form-main-div2">
+                        <input type="password" placeholder="输入密码">
+                        <img src="/public/images/login_submit.png" height="24" width="24">
+                    </div>
+                </div>
+            </div>
+
+            <!-- part1-push 下拉菜单 -->
+            <div class="loginM-p1-push">
+                <img src="/public/images/login_push.png" width="19" height="19">
+            </div>
+
+        </div>
+        <!-- 登录-part1 上面部分_end-->
+
+        <!-- 登录-part2 下面部分_start -->
+        <div class="loginM-p2">
+            <div>
+                <label><input type="checkbox">&nbsp;&nbsp;记住密码</label>
+                <label style="font-weight: inherit">忘记密码</label>
+            </div>
+            <div>
+                <label><input type="checkbox">&nbsp;&nbsp;自动登录</label>
+                <label style="font-weight: inherit">注册账号</label>
+            </div>
+        </div>
+        <!-- 登录-part2 下面部分_end -->
+
+    </div>
+    <!-- 登录管理DIV_end -->
+
+    <script src="/public/js/opt.js"></script>
 </body>
 </html>

@@ -23,3 +23,128 @@ h1,h2,h3,h4,h5,h6 {
 .clear {
     clear: both;
 }
+
+input {
+    font-weight: inherit;
+    outline: none;
+}
+
+
+.loginM {
+    position:absolute;top:50%;left:50%;
+    height: 392px;width: 250px;
+    margin: -200px 0 0 -125px;
+    border:1px solid #ccc;border-radius:5px;
+    background: #fff;
+}
+
+.loginM-p1 {
+    position:absolute;z-index:100;
+    height: 315px;width: 100%;
+    border-radius:5px;
+    box-shadow: 0 1px 10px #888;
+}
+
+.loginM-p2 {
+    position:absolute;z-index:1;bottom:0;
+    height:72px;width:100%;
+    font-size:12px;border-radius:5px;
+    background: rgb(238,241,243);box-shadow: 0 3px 10px #aaa;
+}
+
+.loginM-p1-top {
+    height:30px;
+    border-bottom:1px solid #fff;
+}
+
+.loginM-p1-img {
+    height:130px;
+    padding-top:10px;
+    border-bottom:1px solid #fff;
+    text-align: center;
+}
+
+.loginM-p1-form {
+    height:120px;
+    padding-top:25px;
+    border-bottom:1px solid #fff;
+}
+
+.loginM-p1-push {
+    height:35px;
+    text-align: center;
+    border-radius:5px;
+}
+
+.loginM-p1-top-left {
+    float:left;
+    width: 30px;height: 30px;
+    margin-left:7px;padding-top:3px;
+}
+
+.loginM-p1-top-right {
+    float:right;
+    width: 30px;height: 30px;
+    padding-left:3px;padding-top:3px;
+}
+
+.loginM-p1-img img {
+    border:1px solid rgb(200,203,205);
+    border-radius:50%;
+}
+
+.loginM-p1-img-status {
+    position:absolute;top:134px;left:50%;
+    width: 14px;height: 14px;
+    margin-left:-7px;
+    border:1px solid #999;border-radius:50%;
+    background: rgb(0,223,50);
+}
+
+.loginM-p1-form-main {
+    width: 180px;
+    margin:0 auto;
+}
+
+.loginM-p1-form-main-div1 {
+    width: 100%;
+    padding:2px;margin-bottom:2px;
+    border-bottom:1px solid rgb(217,220,222);
+}
+
+.loginM-p1-form-main-div2 {
+    width:100%;
+    padding:2px 0;
+    border-bottom:1px solid rgb(217,220,222);
+}
+
+.loginM-p1-form-main-div1 input {
+    padding:6px 2px;border:0;
+}
+
+.loginM-p1-form-main-div2 input {
+    padding:6px;
+    padding-left:2px;
+    border:0;width: 152px;
+}
+
+.loginM-p1-form-main-div2 img {
+    margin-top:-2px;
+}
+
+.loginM-p1-push img {
+    margin-top:8px;
+}
+
+.loginM-p2 div {
+    margin-left:22px;
+}
+
+.loginM-p2 div:first-child {
+    margin-top:15px;
+}
+
+.loginM-p2 div label:first-child {
+    margin-right:68px;
+    font-weight: inherit;
+}
