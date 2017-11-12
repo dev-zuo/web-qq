@@ -6,11 +6,9 @@
 - 后端 路由，接口处理 node + express，聊天数据交互 socket.io
 - 数据库 聊天记录，用户及好友信息存储、数据持久化 mysql 
 
-## 进度跟踪
-- [x] 项目准备
-- [x] 脚手架搭建  
-![Image text](https://github.com/zuoxiaobai/AChat-node/blob/master/img-folder/jsj.png)
-- [ ] 前端UI布局
+## 前端UI布局
+登录界面 + 主界面
+### 登录界面
 ![Image text](https://github.com/zuoxiaobai/AChat-node/blob/master/img-folder/login.png)
-- [ ] 数据表设计
-
+### 数据表设计
+待实现
