@@ -8,7 +8,8 @@
 
 ## 前端UI布局
 登录界面 + 主界面
-### 登录界面
+- 登录界面  
+临摹macOS qq登录界面  
 ![Image text](https://github.com/zuoxiaobai/AChat-node/blob/master/img-folder/login.png)
-### 数据表设计
+## 数据表设计
 待实现
