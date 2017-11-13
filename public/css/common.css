@@ -36,6 +36,7 @@ input {
     margin: -200px 0 0 -125px;
     border:1px solid #ccc;border-radius:5px;
     background: #fff;
+    transition: height .3s;
 }
 
 .loginM-p1 {
@@ -43,6 +44,7 @@ input {
     height: 315px;width: 100%;
     border-radius:5px;
     box-shadow: 0 1px 10px #888;
+    background: #fff;
 }
 
 .loginM-p2 {
@@ -50,6 +52,7 @@ input {
     height:72px;width:100%;
     font-size:12px;border-radius:5px;
     background: rgb(238,241,243);box-shadow: 0 3px 10px #aaa;
+    transition: bottom .3s;
 }
 
 .loginM-p1-top {
