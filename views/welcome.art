@@ -88,6 +88,7 @@
     </div>
     <!-- 登录管理DIV_end -->
 
+    <script src="/public/js/common.js"></script>
     <script src="/public/js/opt.js"></script>
 </body>
 </html>

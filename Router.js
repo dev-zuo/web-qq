@@ -95,7 +95,7 @@ function Router() {
          * 1. GET：用来读取数据库数据，判断字段是否存在，不对数据库进行更改操作
          * 2. POST：需要更改数据库的操作, 登录验证及需要保护的安全机密数据等
          --------------------------------------------------------------------- */
-        // urls_remote('/fabric_management', app, fabric_management.opt); // 布料管理
+        urls_remote('/loginM', app, loginM.opt); // 登录管理
 
         // 主页
         app.use('/', function (req, res) {
@@ -144,6 +144,28 @@ function urls_remote(url, app, operateFunc) {
     });
 }
 
+
+var loginM = new LoginM();
+
+function LoginM() {
+    var that = this;
+    this.opt = function (app, data, req, res) {
+        var action = data.action;
+
+        switch (action) {
+            case 'login':
+                that.login(app, data, req, res);
+                break;
+        }
+    };
+
+    this.login = function (app, data, req, res) {
+        console.log(data);
+        res.render('chat.art', {
+            un:data.un
+        });
+    }
+}
 
 
 /**

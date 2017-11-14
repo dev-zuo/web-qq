@@ -4,8 +4,6 @@
  * Created by kevin on 2017/11/12.
  */
 
-var $bodyObj = $('body');
-
 var loginM = new LoginM();
 
 // 二维码切换
@@ -23,8 +21,8 @@ $bodyObj.on('click', '.loginM-p1-form-main-div2 img', loginM.submit);
 
 function LoginM() {
     var that = this;
-    var api = '/loginM';
-    var isPwOk = false;
+    this.api = '/loginM';
+    this.isPwOk = false;
 
     // 登录界面二维码
     this.qrcodeHover = function () {
@@ -92,7 +90,13 @@ function LoginM() {
         // 如果输入不全 that.isPwOk 为 undefined 或 false
         if(that.isPwOk) {
             // 开始验证密码是否正确
+            var un = $('.loginM-p1-form-main-div1 input').val();
+            var pw = $('.loginM-p1-form-main-div2 input').val();
 
+            // 登录请求
+            ajax_request('POST', that.api, 'login', {'un':un, 'pw':pw}, function (data) {
+                $bodyObj.html(data);
+            });
         }
     };
 }
