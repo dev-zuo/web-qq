@@ -87,6 +87,8 @@ function LoginM() {
 
     // 点击提交按钮
     this.submit = function () {
+        // 测试用
+        that.isPwOk = true;
         // 如果输入不全 that.isPwOk 为 undefined 或 false
         if(that.isPwOk) {
             // 开始验证密码是否正确

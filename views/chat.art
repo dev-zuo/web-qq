@@ -1,3 +1,41 @@
 
 <!-- 聊天界面 -->
-<%=un%>
+<div class="chatM">
+
+    <!-- 顶部_start -->
+    <div class="chatM-top"></div>
+    <!-- 顶部_end -->
+
+    <!-- 主界面_start -->
+    <div class="chatM-m">
+
+        <!-- 主界面-左侧_start -->
+        <div class="chatM-m-l"></div>
+        <!-- 主界面-左侧_end -->
+
+        <!-- 主界面-右侧_start -->
+        <div class="chatM-m-r">
+            <!-- 主界面-右侧-上面部分 -->
+            <div class="chatM-m-r-up">
+                <div class="chatM-m-r-up-title">
+                    左小白
+                </div>
+                <div class="chatM-m-r-up-main"></div>
+            </div>
+            <!-- 主界面-右侧-下面部分 -->
+            <div class="chatM-m-r-down">
+                <div class="chatM-m-r-down-tool"></div>
+                <div class="chatM-m-r-down-text">
+                    <textarea style="width: 100%;height: 100%"></textarea>
+                </div>
+            </div>
+        </div>
+        <!-- 主界面-右侧_start -->
+
+        <!-- 清除浮动 -->
+        <div class="clear"></div>
+
+    </div>
+    <!-- 主界面_end -->
+
+</div>

@@ -24,9 +24,12 @@ h1,h2,h3,h4,h5,h6 {
     clear: both;
 }
 
+input, textarea {
+    outline: none;
+}
+
 input {
     font-weight: inherit;
-    outline: none;
 }
 
 
@@ -150,4 +153,68 @@ input {
 .loginM-p2 div label:first-child {
     margin-right:68px;
     font-weight: inherit;
+}
+
+
+
+/* 聊天界面 */
+.chatM {
+    position:absolute;top:50%;left:50%;
+    width:870px; height: 694px;
+    margin: -347px 0 0 -435px;
+    border:1px solid #ccc;border-radius: 5px;
+    box-shadow: 0 5px 5px 5px #ddd;
+}
+
+.chatM-top {
+    height: 56px;width: 100%;
+    background: #f8f8f8;
+    border-bottom:1px solid #f8f8f8;
+}
+
+.chatM-m {
+    height: 638px; width: 100%;
+    background: #fdfdfd;
+}
+
+.chatM-m-l {
+    float: left;
+    width:200px;height: 100%;
+    border-right: 1px solid #eee;
+}
+
+.chatM-m-r {
+    float: right;
+    width:668px;height: 100%;
+    background: #fdfdfd;
+}
+
+.chatM-m-r-up {
+    height: 470px;
+    border-bottom:1px solid #eee;
+}
+
+.chatM-m-r-down {
+    height: 168px;
+}
+
+.chatM-m-r-down-tool {
+    height: 45px;
+    border-bottom:1px solid #eee;
+}
+
+.chatM-m-r-down-text {
+    height: 123px;
+}
+
+.chatM-m-r-down-text textarea {
+    padding:5px 10px;
+    border:0;
+}
+
+.chatM-m-r-up-title {
+    height: 45px;
+    padding-left:20px;
+    line-height: 45px;
+    border-bottom:1px solid #eee;
 }
