@@ -1,6 +1,8 @@
 
 > 基于nodejs+socket.io的web聊天系统 :blush:
 
+![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=plastic)
+
 ## 总体设计及规划
 - 前端 以 bootstrap 为主，js事件处理相关 jQuery 
 - 后端 路由，接口处理 node + express，聊天数据交互 socket.io
