@@ -14,4 +14,4 @@
 临摹macOS qq登录界面  
 ![Image text](https://github.com/zuoxiaobai/AChat-node/blob/master/img-folder/login.png)
 ## 数据表设计
-待实现
+待实现----sdfsdfsdf
